@@ -18,7 +18,7 @@ public class Booking {
 	private int numberOfSeats;
 	private double fareAmount;
 	private LocalDateTime dateOfBooking;
-	private boolean bookingStatus;
+	private boolean bookingStatus;//this is my booking status
 	
 	@ManyToOne
 	@JoinColumn(name="cust_id")
