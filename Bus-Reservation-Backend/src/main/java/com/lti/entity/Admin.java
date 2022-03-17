@@ -14,7 +14,7 @@ import javax.persistence.Table;
 public class Admin {
 	@Id
 	@GeneratedValue
-	private int admid;
+	private int admid;// commit
 	private String admname;
 	private String admcontact;
 	private String admemail;
